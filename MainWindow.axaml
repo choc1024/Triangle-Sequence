@@ -1,0 +1,16 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="test.MainWindow"
+        Width="400" Height="300" Title="Super BOBO">
+    <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="10">
+        <!-- Input Field -->
+        <TextBox Name="InputField" Width="300" Height="30" />
+
+        <!-- Labels -->
+        <Label Name="Label1" Content="Label 1" Margin="0,10,0,0" />
+        <Label Name="Label2" Content="Label 2" Margin="0,10,0,0" />
+        <Label Name="Label3" Content="Label 3" Margin="0,10,0,0" />
+        <Label Name="Label4" Content="Label 4" Margin="0,10,0,0" />
+        <Label Name="Label5" Content="Label 5" Margin="0,10,0,0" />
+    </StackPanel>
+</Window>
